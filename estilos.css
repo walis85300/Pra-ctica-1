@@ -1,18 +1,17 @@
 body
 {
-	background: #efefef;
-	color: #4c4c4c;
-	font-family: arial;
+	background: #EFEFEF;
+	color: #4C4C4C;
+	font-family: "arial", arial;
 	font-size: 16px;
-	margin: 0em;
 }
-
 header
 {
 	background: #434343;
+	border: 1px solid blue;
 	color: white;
-	padding: 1em;
-	position: relative;
+	margin: 0;
+	padding: .5em;
 }
 
 header figure
@@ -22,11 +21,32 @@ header figure
 
 header h1
 {
+	display: block;
 	font-size: 20px;
 	font-weight: normal;
-	margin: 1em 85px 1em 100px;
 	display: block;
+	margin: 1em 85px 1em 100px;
 }
+
+header #home_header
+{
+	background: #22BCE0;
+	border: 1px solid blue;
+	color: black;
+	display: inline-block;
+	float: right;
+/*	right: 10px;
+	top: 25px;
+*/	padding: .6em;
+}
+
+header #home_header figcaption
+{
+	float: right;
+	height: 1em;
+	line-height: 1em;
+}
+
 header #avatar
 {
 	position: absolute;
@@ -35,9 +55,17 @@ header #avatar
 	margin: 1em 1em;
 }
 
+header #avatar figcaption
+{
+	background: #22BCE0;
+	float: right;
+	height: 50px;
+	line-height: 50px;
+}
+
 header #avatar img
 {
-	float: right;
+	float: left;
 	width: 50px;
 }
 
