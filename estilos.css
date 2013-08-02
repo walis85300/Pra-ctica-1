@@ -1,0 +1,47 @@
+body
+{
+	background: #efefef;
+	color: #4c4c4c;
+	font-family: arial;
+	font-size: 16px;
+	margin: 0em;
+}
+
+header
+{
+	background: #434343;
+	color: white;
+	padding: 1em;
+	position: relative;
+}
+
+header figure
+{
+	float: left;
+}
+
+header h1
+{
+	font-size: 20px;
+	font-weight: normal;
+	margin: 1em 85px 1em 100px;
+	display: block;
+}
+header #avatar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 1em 1em;
+}
+
+header #avatar img
+{
+	float: right;
+	width: 50px;
+}
+
+header #logo img
+{
+	width: 80px;
+}
