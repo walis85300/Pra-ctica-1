@@ -103,7 +103,7 @@ header #logo img
 nav
 {
 	background: #878787;
-	font-size: .9em;
+	font-size: 1em;
 }
 
 nav ul
@@ -143,6 +143,51 @@ nav #publicar_nav
 	float: right;
 	padding: .5em 1em;
 }
+
+#contenido
+{
+	left: 0;
+	margin: 1em 33% 0 3em;
+	
+}
+
+
+#principal_article div
+{
+	border-bottom: 3px #DD4F24 solid;
+	height: 8rem;
+	position: relative;
+}
+
+#principal_article #img_principal_article
+{
+	/*position: absolute;*/
+}
+
+#principal_article #img_principal_article img
+{
+	width: 100%;
+
+}
+
+ #informacion_princ_art
+ {
+ 	background: rgba(87,87,87,0.15);
+ 	font-size: 14px;
+ 	padding: 0 1em 0 1em;
+ }
+#informacion_princ_art #autor_principal_article a
+{
+	color: #DD4F24;
+	text-decoration: none;
+}
+
+
+#titulo_principal_article, #autor_principal_article
+{
+	margin-left: 15%;
+}
+
 
 
 
