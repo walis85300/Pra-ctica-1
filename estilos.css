@@ -2,18 +2,34 @@ body
 {
 	background: #EFEFEF;
 	color: #4C4C4C;
-	font-family: "arial", arial;
+	font-family: "PT Sans", Arial;
 	font-size: 16px;
+
+}
+footer
+{
+	background: #434343;
+	color: #A7A7A7;
+	padding: 1em 0;
+	text-align: center;
+	width: 100%;
+}
+footer p
+{
+	margin: 0;
 }
 header
 {
 	background: #434343;
-	border: 1px solid blue;
 	color: white;
 	margin: 0;
 	padding: .5em;
 }
-
+header:after{
+	clear: both;
+	content: "";
+	display: block;
+}
 header figure
 {
 	float: left;
@@ -21,30 +37,10 @@ header figure
 
 header h1
 {
-	display: block;
 	font-size: 20px;
 	font-weight: normal;
-	display: block;
 	margin: 1em 85px 1em 100px;
-}
-
-header #home_header
-{
-	background: #22BCE0;
-	border: 1px solid blue;
-	color: black;
-	display: inline-block;
-	float: right;
-/*	right: 10px;
-	top: 25px;
-*/	padding: .6em;
-}
-
-header #home_header figcaption
-{
-	float: right;
-	height: 1em;
-	line-height: 1em;
+	display: block;
 }
 
 header #avatar
@@ -52,7 +48,7 @@ header #avatar
 	position: absolute;
 	top: 0;
 	right: 0;
-	margin: 1em 1em;
+	margin: 1em 1em 0 0;
 }
 
 header #avatar figcaption
@@ -66,10 +62,91 @@ header #avatar figcaption
 header #avatar img
 {
 	float: left;
-	width: 50px;
+	height: 50px;
+
+}
+
+header #home_header
+{
+	background: #22BCE0;
+	border-radius: 8px 8px 0 0;
+	top: 4em;
+	color: white;
+	display: inline-block;
+	float: right;
+	padding: .5em 1em .5em 1em;
+	position: absolute;
+	right: 15%;
+	text-decoration: none;
+}
+
+header #home_header a
+{
+	color: white;
+	text-decoration: none;
+}
+
+header #home_header figcaption
+{
+	height: 0;
+	float: right;
+	line-height: 0;
+	padding: 0 1em 0 3em;
+	position: relative;
 }
 
 header #logo img
 {
 	width: 80px;
 }
+
+nav
+{
+	background: #878787;
+	font-size: .9em;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li 
+{
+	display: inline-block;
+	padding: 0 2%;
+}
+
+nav ul li:hover
+{
+	background: 
+}
+
+nav ul li a
+{
+	color: white;
+	text-decoration: none;
+}
+
+nav #flecha_nav
+{
+	background: #22BCE0;
+	padding: .5em .2em;
+}
+
+nav #publicar_nav
+{
+	background: #DD4F24;
+	display: inline-block;
+	float: right;
+	padding: .5em 1em;
+}
+
+
+
+
+
+
+
