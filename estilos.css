@@ -146,27 +146,40 @@ nav #publicar_nav
 
 #contenido
 {
+	border: 1px solid yellow;
 	left: 0;
-	margin: 1em 33% 0 3em;
+	margin: 1em 0 0 1em;
+	width: 470px;
+
 	
 }
 
-
 #principal_article div
 {
+	/*border: 1px solid blue;*/
 	border-bottom: 3px #DD4F24 solid;
-	height: 8rem;
-	position: relative;
+	display: inline-block;
+	margin: 0;
+	/*position: relative;*/
 }
 
-#principal_article #img_principal_article
+#principal_article div #votacion_principal_article
 {
-	/*position: absolute;*/
+	border: 1px solid blue;
+	height: 100%;
+	margin: 0 90% 0 0;
+	position: relative;
+	vertical-align: text-top;
+}
+
+#principal_article #titulo_principal_article
+{
+	font-style: italic;
 }
 
 #principal_article #img_principal_article img
 {
-	width: 100%;
+	width: 470px;
 
 }
 
@@ -185,6 +198,7 @@ nav #publicar_nav
 
 #titulo_principal_article, #autor_principal_article
 {
+	border: 1px solid black;
 	margin-left: 15%;
 }
 
