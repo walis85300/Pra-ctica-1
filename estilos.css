@@ -146,9 +146,9 @@ nav #publicar_nav
 
 #contenido
 {
-	border: 1px solid yellow;
 	left: 0;
 	margin: 1em 0 0 1em;
+	position: relative;
 	width: 470px;
 
 	
@@ -156,20 +156,22 @@ nav #publicar_nav
 
 #principal_article div
 {
-	/*border: 1px solid blue;*/
+	background: #E1E1E4;
 	border-bottom: 3px #DD4F24 solid;
-	display: inline-block;
 	margin: 0;
-	/*position: relative;*/
+	position: absolute;
+	top: 220px;
 }
 
 #principal_article div #votacion_principal_article
 {
-	border: 1px solid blue;
 	height: 100%;
-	margin: 0 90% 0 0;
-	position: relative;
-	vertical-align: text-top;
+	margin: 0 0 0 0;
+	left: 1.5em;
+	line-height: 3em;
+	position: absolute;
+	top: 0;
+	width: 1em;
 }
 
 #principal_article #titulo_principal_article
@@ -185,7 +187,6 @@ nav #publicar_nav
 
  #informacion_princ_art
  {
- 	background: rgba(87,87,87,0.15);
  	font-size: 14px;
  	padding: 0 1em 0 1em;
  }
@@ -198,7 +199,6 @@ nav #publicar_nav
 
 #titulo_principal_article, #autor_principal_article
 {
-	border: 1px solid black;
 	margin-left: 15%;
 }
 
